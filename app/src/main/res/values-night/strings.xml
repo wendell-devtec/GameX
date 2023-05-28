@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+  ~ Copyright (c) de Tw4rs 2021.
+  -->
+<resources>
+
+    <string name="app_name">GameX - Earn Rewards</string>
+
+    <!-- CONTACT INFO -->
+    <string name="contact_email">mailto:gamex_support@tw4rs.com</string>
+
+    <string name="group">GRUPO TELEGRAM <a href="https://t.me/+WxzIegaGqVczYzcx" /></string>
+    <string name="group1">AJUDA PARA PREENCHIMENTO<a href="https://www.youtube.com/watch?v=UXO1tA8CWQU" /></string>
+
+    <string name="help">AJUDA EM VÍDEO CLIQUE AQUI <a href="https://youtu.be/UXO1tA8CWQU" /></string>
+
+
+    <!--bottom navigation title-->
+    <string name="title_menu_redeem">Recompensa</string>
+    <string name="title_menu_home">Home</string>
+    <string name="title_menu_profile">Perfil</string>
+    <string name="title_transaction">Transações</string>
+
+    <!-- App INTRO Titles & Description -->
+    <string name="slide_1_title">Ganhe Prêmios</string>
+    <string name="slide_2_title">Bônus Diarios</string>
+    <string name="slide_4_title">Recompensa!</string>
+    <string name="slide_3_title">Roleta</string>
+    <string name="slide_1_desc">Assista inúmeros videos por dia e ganhe recompensa</string>
+    <string name="slide_2_desc">Pegue seu bônus diário e ganhe pontos extras!</string>
+    <string name="slide_4_desc">A cada \'230,000 TWSCASH\' você, recebe R$10,00!</string>
+    <string name="slide_3_desc">Boa sorte aqui , gire e ganhe muitos pontos!</string>
+
+    <!--button-->
+    <string name="next">Próximo</string>
+    <string name="playBtn">RODAR</string>
+
+    <!--network message-->
+    <string name="retry">TENTAR NOVAMENTE</string>
+    <string name="no_connection">Sem\nConexão</string>
+    <string name="nointernet">Por favor verifique sua conexão com a internet</string>
+    <string name="please_try_again">Por favor verifique \n sua conexão e tente novamente </string>
+
+    <!-- Reward Button Titles -->
+    <string name="watch_video_text">ASSISTIR VÍDEO</string>
+    <string name="daily_bonus">BÔNUS DIARIO </string>
+    <string name="lucky_wheel">GAME</string>
+
+    <!--PAYPAL-->
+    <string name="pix_address">CREDENCIAL PIX, LEMBRE-SE O PROCESSO É FEITO MANUALMENTE PODENDO HAVER DEMORA PARA A TRANSAÇÃO</string>
+    <string name="email_address">EMAIL PARA CONTATO DE RECEBIMENTO DO PRÊMIO , LEMBRE-SE O PROCESSO É FEITO MANUALMENTE PODENDO HAVER DEMORA PARA A TRANSAÇÃO</string>
+
+    <!--Register-->
+
+    <string name="enter_email"> Digite o e-mail </string>
+    <string name="enter_password"> Digite a senha </string>
+    <string name="pass_not_match"> Senha não corresponde </string>
+    <string name="enter_valid_email"> Digite um e-mail válido </string>
+    <string name="sign_in_process"> Tempo de processamento do login. Por favor aguarde </string>
+
+
+    <!--Security-->
+    <string name="account_exist"> Conta existente </string>
+    <string name="email_already_registered"> Email já registrado </string>
+    <string name="already_have_account"> Este dispositivo já tem uma conta e o e-mail de uso é: \n </string>
+
+    <string name="check_email_title"> Verificar e-mail </string>
+    <string name="check_email_text"> Verifique seu e-mail para ativar sua conta </string>
+    <string name="verify_first"> Enviamos o e-mail de verificação novamente. Verifique seu e-mail primeiro e tente novamente. Não permitimos contas não verificadas </string>
+
+
+    <!--Recovey-->
+    <string name="recovery_email"> Verifique seu e-mail para recuperar sua conta </string>
+    <string name="error">Erro</string>
+    <string name="share_your_code">Convide Amigos com seu código e ganhe *15* Pontos e quem foi indicado ganha 30 , porém leia os termos de uso. Para não ter problema de ser bloqueado</string>
+    <string name="refer_code">Código</string>
+
+
+    <string name="cardReedem">Para resgatar \n\n suas recompensas \n\n Clique aqui</string>
+    <string name="msg_cloning_app_detected">Clone detectado</string>
+    <string name="msg_termux_detected">Termux Encontrado</string>
+    <string name="hint_search">Pesquisar</string>
+    <string name="reward_watch">Prêmios disponiveis</string>
+
+
+    <string name="ayet_adslot">GameX</string>
+    <string name="title_activity_roleutee">Roleutee</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="_0">0</string>
+    <string name="tictoe">TICTOE</string>
+
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity">
+
+
+    <View
+        android:id="@+id/viewHeaderBg"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/viewHeaderBg"
+        app:layout_constraintTop_toBottomOf="@+id/viewHeaderBg">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp">
+            <TextView
+                android:textColor="@color/black_text"
+                android:id="@+id/txtPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sua pontuação:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/glegoo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+            <TextView
+                android:textColor="@color/black_text"
+                android:id="@+id/txtCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="12sp"
+                android:fontFamily="@font/supercell"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:textColor="@color/black_text"
+                android:id="@+id/txtLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seu Nível:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/glegoo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtPoint"/>
+
+
+            <TextView
+                android:id="@+id/txtLevelN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="4dp"
+                android:fontFamily="@font/supercell"
+                android:text="Bronze"
+                android:textColor="@color/black_text"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCoin" />
+
+
+            <LinearLayout
+                android:id="@+id/reedemLayout"
+                android:layout_width="0dp"
+                android:layout_marginStart="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtLevel">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_baseline_redeem_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="RECOMPENSA"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/glegoo"
+                    android:textColor="@color/black_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/historicoLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                app:layout_constraintStart_toEndOf="@+id/reedemLayout"
+                app:layout_constraintTop_toBottomOf="@+id/txtLevel">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_baseline_manage_history_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="HISTÓRICO"
+                    android:fontFamily="@font/glegoo"
+                    android:textSize="15sp"
+                    android:textColor="@color/black_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/PerfilLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                app:layout_constraintStart_toEndOf="@+id/historicoLayout"
+                app:layout_constraintTop_toBottomOf="@+id/txtLevel">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_baseline_emoji_people_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="PERFIL"
+                    android:textSize="15sp"
+                    android:textColor="@color/black_text"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/helpLayout"
+                android:layout_width="0dp"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/PerfilLayout"
+                app:layout_constraintTop_toBottomOf="@+id/txtLevel">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_baseline_help_center_24"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="AJUDA"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/glegoo"
+                    android:textColor="@color/black_text"/>
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:padding="16sp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardHeader">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/dasbboard_item14"/>
+            <include layout="@layout/dasbboard_item01"/>
+            <include layout="@layout/dasbboard_item17"/>
+            <include layout="@layout/dasbboard_item09"/>
+            <include layout="@layout/dasbboard_item03"/>
+            <include layout="@layout/dasbboard_item08"/>
+            <include layout="@layout/dasbboard_item02"/>
+            <include layout="@layout/dasbboard_item04"/>
+            <include layout="@layout/dasbboard_item15"/>
+            <include layout="@layout/dasbboard_item06"/>
+            <include layout="@layout/dasbboard_item10"/>
+            <include layout="@layout/dasbboard_item16"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

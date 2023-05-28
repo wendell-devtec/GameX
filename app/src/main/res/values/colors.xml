@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D55128</color>
+    <color name="black_text">#000</color>
+
+    <color name="black">#000</color>
+
+
+    <color name="colorBg">#D55128</color>
+
+    <color name="colorRed">#DD1406</color>
+    <color name="colorButton">@color/colorPrimary</color>
+
+    <color name="white_text">#fff</color>
+    <color name="black_text1">@color/black</color>
+
+    <color name="colorPrimaryDark">#f1edfd</color>
+    <color name="colorAccent">#4CAF32</color>
+    <color name="backgroundColor">#F6FBFF</color>
+    <color name="Spinwell140">#030303</color>
+
+    <color name="lightWhite">#f2f5f8</color>
+    <color name="white">#fff</color>
+
+    <color name="rewad_dialog_bg">#90000000</color>
+
+    <color name="back">#51459E</color>
+    <color name="luckywheel_bg">#2196F3</color>
+    <color name="bg_1">#FFFF9800</color>
+    <color name="bg_2">#2196F3</color>
+    <color name="bg_3">#D99C05</color>
+    <color name="bg_4">#F44336</color>
+    <color name="yellow">#FFEB3B</color>
+
+    <color name="color_gold">#FFB701</color>
+
+
+</resources>

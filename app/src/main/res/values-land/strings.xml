@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) de Tw4rs 2021.
+  -->
+
+<resources>
+    <string name="tictoe">TICTOE</string>
+</resources>

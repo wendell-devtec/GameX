@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.ScretchActivity">
+
+        <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/imgback"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ss1" />
+
+            <dev.skymansandy.scratchcardlayout.ui.ScratchCardLayout
+                android:id="@+id/scretchcard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginVertical="45dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black_text"
+                    android:textSize="60sp" />
+            </dev.skymansandy.scratchcardlayout.ui.ScratchCardLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

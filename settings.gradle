@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven {url 'https://artifacts.applovin.com/android'}
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven {
+            url "https://artifactory.appodeal.com/appodeal"
+        }
+
+    }
+
+}
+
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven { url "https://jitpack.io" }
+
+        maven {
+            url "https://artifactory.appodeal.com/appodeal"
+        }
+    }
+
+
+
+}
+rootProject.name = "Gamex"
+include ':app', ':luckyWheel'
