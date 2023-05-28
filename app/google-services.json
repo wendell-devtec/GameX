@@ -1,0 +1,164 @@
+{
+  "project_info": {
+    "project_number": "796900013733",
+    "firebase_url": "https://reward-b792e.firebaseio.com",
+    "project_id": "reward-b792e",
+    "storage_bucket": "reward-b792e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796900013733:android:a31aa0ed01f3ce0985bf4c",
+        "android_client_info": {
+          "package_name": "com.tw4rs.adminSpinCash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OjOZEgafNcFuFOnpuXs-bf-5Dx2QJ4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796900013733:android:a868b46cf9b08d7385bf4c",
+        "android_client_info": {
+          "package_name": "com.tw4rs.cashspin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OjOZEgafNcFuFOnpuXs-bf-5Dx2QJ4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796900013733:android:3b0354e637650ec985bf4c",
+        "android_client_info": {
+          "package_name": "com.tw4rs.gamex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796900013733-iadvnmsukng3r83ci3hq85mkpql3sn6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tw4rs.gamex",
+            "certificate_hash": "c1c84650b31c558b0bbe78124b318d77e1874583"
+          }
+        },
+        {
+          "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OjOZEgafNcFuFOnpuXs-bf-5Dx2QJ4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796900013733:android:80f7426c68cbf6fd85bf4c",
+        "android_client_info": {
+          "package_name": "com.tw4rs.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OjOZEgafNcFuFOnpuXs-bf-5Dx2QJ4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796900013733:android:e2ad11e75863068585bf4c",
+        "android_client_info": {
+          "package_name": "com.tw4rstec.seegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4OjOZEgafNcFuFOnpuXs-bf-5Dx2QJ4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796900013733-08toag4kq593cgthe1almi41baub5lu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
